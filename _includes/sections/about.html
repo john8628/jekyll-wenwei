@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span>About Me</span></h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="team-member wow zoomIn">
+                <img src="{{ site.author.head_img | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
+                <h4><span class="navy">{{ site.author.name }} {{ site.author.last_name }}</span></h4>
+                <ul class="list-inline social-icon">
+                    <li><a href="{{ site.author.github }}" target="blank"><i class="icon-github"></i></a></li>
+                    <li><a href="{{ site.author.linkedin }}" target="blank"><i class="icon-linkedin2"></i></a></li>
+                    <li><a href="mailto:{{ site.author.email }}"><i class="icon-envelop"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <p>
+              <span>{{ site.author.desc }}</span>
+            </p>
+        </div>
+    </div>
+</div>
