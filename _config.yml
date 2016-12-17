@@ -46,7 +46,7 @@ author:
   email: 'wenwei8268@gmail.com'
   github: 'https://github.com/wenwei8268'
   linkedin: ''
-  head_img: 'static/img/landing/wenwei.jpg'
+  head_img: '/static/img/landing/wenwei.jpg'
   tag: ' Software, Reading,Travel,Mathematics and Sports'
   desc: >
            I am a java developer who focus on healthycare development; 
