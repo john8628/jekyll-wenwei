@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span>My Career</span></h1>
+        </div>
+    </div>
+    <div class="row features-block">
+        <div class="col-lg-12">
+            <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+                {% for event in site.data.timeline %}
+                  {% assign loopindex = forloop.index | modulo: 2 %}
+                  <div class="vertical-timeline-block">
+                      <div class="vertical-timeline-icon navy-bg wow rotateIn">
+                          <i class="{{ event.icon }}"></i>
+                      </div>
+                      <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpLeft {% else %} rotateInUpRight {% endif %}">
+                          <h2><span>{{ event.name }} @ <a href="{{ event.website }}" target="_blank">{{ event.place }}</a></span></h2>
+                          <p><span>{{ event.desc }}</span></p>
+                          <p><span><a href="{{ site.author.linkedin }}" target="_blank">See More</a></span></p>
+                          <span class="vertical-date"><span> {{ event.date }} </span>
+                          <br/> <small><span>{{ event.title }}</span></small> </span>
+                      </div>
+                  </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
