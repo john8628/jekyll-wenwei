@@ -1,12 +1,16 @@
-name: 'Cecafdb'
-url : http://nar.oxfordjournals.org/content/43/D1/D549.long
-img:  static/img/landing/jekyll.png
-desc: >
+
+- name: 'Cecafdb'
+  url : http://www.cecafdb.org/
+  img:  static/img/landing/cecafdb.png
+  desc: >
          Focus on the metablolic network alignment;
 
-name: 'Zytz'
-url : http://nar.oxfordjournals.org/content/43/D1/D549.long
-img:  static/img/landing/jekyll.png
-desc: >
-         Focus on the metablolic network alignment;         
+- name: 'Zytz'
+  url : http://nar.oxfordjournals.org/content/43/D1/D549.long
+  img:  static/img/landing/jekyll.png
+  desc: >
+         A simple android application that you can measure yourself; 
+
+
+            
 

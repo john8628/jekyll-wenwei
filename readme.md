@@ -8,4 +8,4 @@
  -##Notes :
  -bundle install 找不到系统路径 you should
  -gem install bundler --pre 
- - 
+ - add person image

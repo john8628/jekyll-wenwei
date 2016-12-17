@@ -8,7 +8,9 @@
   desc: >
           Foucus on the Library information management system development;
           <br />Web and desktop development.
-          <br />Java, oracle, extJs, MySQL,
+          <br />Java;Spring mvc;Restful API
+          <br />Oracle;Mysql;
+            
 
 - name: "Master's Degree, computer science"
   place: " "
