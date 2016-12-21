@@ -1,0 +1,22 @@
+
+- name: "Software Developer"
+  place: "WuXi NextCODE"
+  website: "https://www.wuxinextcode.com/"
+  icon: 'icon-embed2'
+  title: 'Java Developer'
+  date: 'Apr 2016 – Now'
+  desc: >
+          Foucus on the Library information management system development;
+          <br />Web and desktop development.
+          <br />Java;Spring mvc;Restful API
+          <br />Oracle;Mysql;
+            
+
+- name: "Master's Degree, computer science"
+  place: " "
+  website: "http://www.baidu.com/"
+  icon: 'icon-book'
+  title: 'Education'
+  date: 'Sep. 2013 - Jul. 2016'
+  desc: >
+          Graduated with a focus on applied computer science 
