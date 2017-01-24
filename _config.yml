@@ -34,10 +34,11 @@ exclude:
   - Gemfile.lock
 
 # Website settings
-title: "wenwei blog"
-description: "wenwei's personal blog."
-keywords: "wenwei,blog"
-baseurl: "/jekyll-wenwei/"
+title: "wenwei zhou"
+description: "wenwei's personal info."
+keywords: "wenwei,info"
+#baseurl: "/jekyll-wenwei/"
+baseurl : "/"
 url: "wenwei8268.github.io/jekyll-wenwei"
 favicon: "static/img/favicon.ico?v=2"
 

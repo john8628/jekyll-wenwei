@@ -6,10 +6,10 @@
          Focus on the metablolic network alignment;
 
 - name: 'Zytz'
-  url : http://nar.oxfordjournals.org/content/43/D1/D549.long
+  url : https://github.com/Zytz/jy
   img:  static/img/landing/jekyll.png
   desc: >
-         A simple android application that you can measure yourself; 
+         An open source for android application;
 
 
             
