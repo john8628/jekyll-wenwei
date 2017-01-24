@@ -37,8 +37,8 @@ exclude:
 title: "wenwei zhou"
 description: "wenwei's personal info."
 keywords: "wenwei,info"
-#baseurl: "/jekyll-wenwei/"
-baseurl : "/"
+baseurl: "/jekyll-wenwei/"
+#baseurl : "/"
 url: "wenwei8268.github.io/jekyll-wenwei"
 favicon: "static/img/favicon.ico?v=2"
 
